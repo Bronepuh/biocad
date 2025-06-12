@@ -1,0 +1,20 @@
+.site-layout-content {
+	padding: 24px;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 320px) {
+	.site-layout-content {
+		padding: 12px;
+	}
+
+	.ant-form-item-label {
+		text-align: left !important;
+	}
+}
+
+.ant-layout {
+	min-height: 100vh;
+}
