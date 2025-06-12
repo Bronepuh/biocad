@@ -12,6 +12,7 @@
 		"moduleDetection": "force",
 		"noEmit": true,
 		"jsx": "react-jsx",
+		"skipLibCheck": true,
 
 		/* Linting */
 		"noUnusedLocals": true,
@@ -25,5 +26,6 @@
 			"@shared/*": ["src/shared/*"] // алиас для папки shared
 		}
 	},
-	"include": ["src"]
+	"include": ["src"],
+	"exclude": ["node_modules", "dist", "build"]
 }
